@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tentang Saya - Fatwa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<head>
+  <meta charset="UTF-8">
+  <title>Portofolio Fatwa</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Tambahin ini untuk ikon sosial media -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <img src="img/foto-profil.jpg" alt="Foto Fatwa" class="profile-pic">
+   <h2>Fatwa Fazada</h2>
+    <p>Exploring Technology, One Code at a Time 🚀</p>
+     <div class="social-links">
+    <a href="https://instagram.com/fatwaf_" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://linkedin.com/in/username" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://facebook.com/username" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Tentang Saya</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projek</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+ <main class="content">
+  <h1>Tentang Saya</h1>
+<p>
+  Halo! Nama saya <b>Fatwa Fazada</b>, mahasiswa <b>Teknik Informatika</b> di Universitas Paramadina. 
+  Saya lahir dan besar di Depok, dan sejak awal kuliah memiliki ketertarikan kuat pada dunia teknologi.
+</p>
+<p>
+  Minat utama saya ada di bidang <b>Internet of Things (IoT)</b>, <b>Web Development</b>,<b>CyberSecurity</b>, dan <b>Fotografi</b>. 
+  Saya senang mengeksplorasi bagaimana teknologi dapat digunakan untuk membuat solusi nyata, 
+  seperti sistem <i>smart locker</i> dan monitoring hidroponik berbasis IoT.
+</p>
+<p>
+  Di luar dunia teknologi, saya juga gemar <b>fotografi</b>, membaca artikel tentang perkembangan digital, 
+  serta berdiskusi tentang inovasi. Bagi saya, belajar teknologi bukan hanya keterampilan, 
+  tapi juga cara untuk berkontribusi pada masyarakat melalui solusi kreatif.
+</p>
+  <!-- Grid Card dimulai -->
+  <div class="portfolio-grid">
+  <div class="card">
+    <img src="img/iot2.jpg" alt="IoT Projects" class="card-img">
+    <h3>IoT Projects</h3>
+    <p>Mengembangkan sistem IoT seperti smart locker & monitoring hidroponik.</p>
+  </div>
+
+  <div class="card">
+    <img src="img/foto-web.jpg" alt="Web Development" class="card-img">
+    <h3>Web Development</h3>
+    <p>Membangun web menggunakan HTML, CSS, dan JavaScript.</p>
+  </div>
+
+  <div class="card">
+    <img src="img/foto-app.jpg" alt="aplikasi Development" class="card-img">
+    <h3>App Development</h3>
+    <p>Membangun aplikasi menggunakan HTML, CSS, dan JavaScript.</p>
+  </div>
+
+  <div class="card">
+    <img src="img/fotografi.jpg" alt="Fotografi" class="card-img">
+    <h3>Fotografi</h3>
+    <p>Hobi memotret momen dengan gaya urban & landscape photography.</p>
+  </div>
+
+  <div class="card">
+    <img src="img/foto-organisasi.jpg" alt="Organisasi" class="card-img">
+    <h3>Organisasi</h3>
+    <p>Pernah ikut serta dalam kegiatan kampus seperti PMB & event IT.</p>
+  </div>
+
+  <div class="card">
+  <i class="fas fa-cloud"></i>
+  <h3>Cloud & Security</h3>
+  <p>Pengalaman dalam mengelola layanan cloud dan memahami dasar keamanan sistem untuk mendukung infrastruktur digital.</p>
+</div>
+</div>
+  </div>
+</main>
+  </section>
+</main>
+
+
+<!-- Import tsparticles -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+
+<script>
+  tsParticles.load("tsparticles", {
+    background: {
+      color: "#0d1117" // warna dasar gelap
+    },
+    particles: {
+      number: {
+        value: 80,
+      },
+      color: {
+        value: "#00ffcc" // warna partikel (biru kehijauan neon)
+      },
+      shape: {
+        type: "circle",
+      },
+      opacity: {
+        value: 0.6,
+      },
+      size: {
+        value: 3,
+      },
+      move: {
+        enable: true,
+        speed: 2,
+      },
+      links: {
+        enable: true,
+        color: "#00ffcc",
+        opacity: 0.4,
+        distance: 150,
+      }
+    },
+    interactivity: {
+      events: {
+        onHover: {
+          enable: true,
+          mode: "repulse", // partikel menjauh saat mouse dihover
+        }
+      }
+    },
+    fullScreen: {
+      enable: true,
+      zIndex: -1 // biar ada di belakang konten
+    }
+  });
+</script>
+</body>
+</html>
