@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Fatwa</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <img src="img/foto-profil.jpg" alt="Foto Fatwa" class="profile-pic">
+    <h2>Fatwa Fazada</h2>
+    <p>Exploring Technology, One Code at a Time 🚀</p>
+
+    <div class="social-links">
+      <a href="https://instagram.com/fatwaf_" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://linkedin.com/in/username" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://facebook.com/username" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Tentang Saya</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="projects.html">Projek</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <h1>Resume</h1>
+
+    <!-- Bagian Pendidikan -->
+    <h2>Pendidikan</h2>
+    <ul class="education-list">
+      <li>
+        <img src="img/sd.png" alt="Logo SD" class="school-logo">
+        SDN Mekarjaya 28 Depok (2009 - 2015)
+      </li>
+      <li>
+        <img src="img/smp.png" alt="Logo SMP" class="school-logo">
+        SMP Negeri 4 Depok (2015 - 2018)
+      </li>
+      <li>
+        <img src="img/sma.png" alt="Logo SMK" class="school-logo">
+        SMKS Madani Depok - Teknik Kendaraan Ringan (2018 - 2021)
+      </li>
+      <li>
+        <img src="img/universitas.png" alt="Logo Universitas Paramadina" class="school-logo">
+        Universitas Paramadina — Teknik Informatika (2022 - Sekarang)
+      </li>
+    </ul>
+
+    <!-- Bagian Pengalaman -->
+    <h2>Pengalaman</h2>
+    <ul>
+       <li>
+        <img src="img/mekanik.png" alt="Logo Magang" class="magang-logo">
+       PT. Lautan Berlian service Depok - Mekanik (Sep - Des 2019)
+      </li>
+ <li>
+        <img src="img/KPPS.png" alt="Logo KPPS" class="magang-logo">
+        Pemilu Presiden dan Legislatif - Anggota KPPS (Feb - 2024)
+      </li>
+      <li>
+        <img src="img/sisnet.png" alt="Logo Sisnet" class="magang-logo">
+       PT Sisnet Mitra Sejahtera - Cloud Engineer (Ags - Now 2025)
+      </li>
+    </ul>
+  </main>
+
+  <!-- Partikel Background -->
+  <div id="tsparticles"></div>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+  <script>
+    tsParticles.load("tsparticles", {
+      background: { color: "#0d1117" },
+      particles: {
+        number: { value: 80 },
+        color: { value: "#00ffcc" },
+        shape: { type: "circle" },
+        opacity: { value: 0.6 },
+        size: { value: 3 },
+        move: { enable: true, speed: 2 },
+        links: { enable: true, color: "#00ffcc", opacity: 0.4, distance: 150 }
+      },
+      interactivity: {
+        events: { onHover: { enable: true, mode: "repulse" } }
+      },
+      fullScreen: { enable: true, zIndex: -1 }
+    });
+  </script>
+</body>
+</html>

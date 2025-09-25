@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projek - Fatwa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<head>
+  <meta charset="UTF-8">
+  <title>Portofolio Fatwa</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Tambahin ini untuk ikon sosial media -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <img src="img/foto-profil.jpg" alt="Foto Fatwa" class="profile-pic">
+   <h2>Fatwa Fazada</h2>
+    <p>Exploring Technology, One Code at a Time 🚀</p>
+     <div class="social-links">
+    <a href="https://instagram.com/fatwaf_" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://linkedin.com/in/username" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://facebook.com/username" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Tentang Saya</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projek</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </aside>
+<main class="content">
+  <h1>Projek</h1>
+  <ul>
+    <li>
+      <b>LockIt</b> – Smart Locker berbasis IoT untuk mahasiswa.
+      <p>
+        Latar Belakang: Dibuat untuk meningkatkan keamanan penyimpanan barang mahasiswa. 
+        Locker dilengkapi RFID (KTM), PIN cadangan, dan pemantauan status via aplikasi.
+      </p>
+    </li>
+
+    <li>
+      <b>Aplikasi Kantin</b> – Sistem pemesanan makanan di kampus.
+      <p>
+        Latar Belakang: Untuk mempermudah mahasiswa memesan makanan tanpa harus antre, 
+        dilengkapi fitur pemesanan online dan pengantaran ke lokasi kampus.
+      </p>
+    </li>
+
+    <li>
+      <b>Dashboard Monitoring Loker</b> – Aplikasi berbasis React.
+      <p>
+        Latar Belakang: Dikembangkan untuk memantau status penggunaan loker 
+        (kosong/terisi) secara real-time agar mahasiswa bisa cek sebelum datang ke kampus.
+      </p>
+    </li>
+
+    <li>
+      <b>IoT Monitoring Hidroponik</b> – Sensor pH & EC.
+      <p>
+        Latar Belakang: Proyek IoT untuk membantu petani hidroponik menjaga kualitas air, 
+        dikaitkan dengan kerja sama sekolah di Bogor. Data ditransmisikan ke server cloud.
+      </p>
+    </li>
+
+    <li>
+      <b>Portfolio Website</b> – Personal portfolio dengan HTML & CSS.
+      <p>
+        Latar Belakang: Tugas kuliah yang mengajarkan pembuatan website tanpa framework, 
+        menampilkan profil, resume, dan projek yang sudah dibuat.
+      </p>
+    </li>
+
+    <li>
+      <b>Analisis Riset DOAJ</b> – Data Mining & Information Retrieval.
+      <p>
+        Latar Belakang: Membaca >3000 artikel DOAJ di bidang Ekonomi & Pertanian, 
+        melakukan crawling, stemming, dan analisis tren riset untuk presentasi UAS.
+      </p>
+    </li>
+
+    <li>
+      <b>Web Crawling Berita</b> – Python dengan Pandas.
+      <p>
+        Latar Belakang: Projek latihan crawling berita dari Detik untuk dianalisis 
+        menggunakan data science tools (Pandas, Weka).
+      </p>
+    </li>
+
+    <li>
+      <b>Aplikasi Irigasi Otomatis</b> – Rancangan IoT.
+      <p>
+        Latar Belakang: Sistem rancangan alat irigasi otomatis berbasis sensor tanah 
+        dan IoT untuk meningkatkan efisiensi pertanian.
+      </p>
+    </li>
+  </ul>
+</main>
+
+  <!-- Tambah elemen partikel -->
+<div id="tsparticles"></div>
+
+<!-- Import tsparticles -->
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+
+<script>
+  tsParticles.load("tsparticles", {
+    background: {
+      color: "#0d1117" // warna dasar gelap
+    },
+    particles: {
+      number: {
+        value: 80,
+      },
+      color: {
+        value: "#00ffcc" // warna partikel (biru kehijauan neon)
+      },
+      shape: {
+        type: "circle",
+      },
+      opacity: {
+        value: 0.6,
+      },
+      size: {
+        value: 3,
+      },
+      move: {
+        enable: true,
+        speed: 2,
+      },
+      links: {
+        enable: true,
+        color: "#00ffcc",
+        opacity: 0.4,
+        distance: 150,
+      }
+    },
+    interactivity: {
+      events: {
+        onHover: {
+          enable: true,
+          mode: "repulse", // partikel menjauh saat mouse dihover
+        }
+      }
+    },
+    fullScreen: {
+      enable: true,
+      zIndex: -1 // biar ada di belakang konten
+    }
+  });
+</script>
+</body>
+</html>
